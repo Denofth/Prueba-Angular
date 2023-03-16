@@ -3,6 +3,8 @@ import { FormBuilder, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { faPen, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 
+import { AuthService } from '@services/auth.services';
+
 @Component({
   selector: 'app-login-form',
   templateUrl: './login-form.component.html'
@@ -22,6 +24,7 @@ export class LoginFormComponent {
   constructor(
     private formBuilder: FormBuilder,
     private router: Router
+    private auth
   ) { }
 
   doLogin() {
