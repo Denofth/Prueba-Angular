@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TrelloAuth
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# Prueba-Angular
+prueba de login con validaciónes y uso de Apis
+>>>>>>> 83cb30309c25b92f653b12653d97f77c7738b42d
